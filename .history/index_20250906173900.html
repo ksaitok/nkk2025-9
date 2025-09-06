@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日系解体工業株式会社 - 湘南・横浜の戸建解体</title>
+    <meta name="description" content="湘南・横浜の戸建解体工事は日系解体工業株式会社へ。年間300件の実績。自社施工だから余計なマージンが無い安心価格。">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        /* Language switcher functionality for static HTML */
+        .language-content { display: none; }
+        .language-content.active { display: block; }
+        
+        /* Additional styles for language buttons */
+        .lang-switcher {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            gap: 8px;
+            background: rgba(255,255,255,0.9);
+            padding: 8px;
+            border-radius: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        .lang-btn {
+            padding: 10px 15px;
+            background: transparent;
+            border: 2px solid #ddd;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 12px;
+            text-decoration: none;
+            color: #333;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+        
+        .lang-btn:hover {
+            border-color: #d32f2f;
+            color: #d32f2f;
+        }
+        
+        .lang-btn.active {
+            background: #d32f2f;
+            color: white;
+            border-color: #d32f2f;
+        }
+
+        /* Service Icons */
+        .service-icon {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .service-icon img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+        }
+
+        /* Service Card Hover Effects */
+        .service-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+
+        /* Enhanced Service Cards */
+        .service-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: all 0.3s;
+            border: 1px solid rgba(211,47,47,0.1);
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            border-color: rgba(211,47,47,0.3);
+        }
+    </style>
+</head>
+<body>
+    <!-- Language Switcher -->
+    <div class="lang-switcher">
+        <button class="lang-btn active" onclick="switchLang('ja')">日本語</button>
+        <button class="lang-btn" onclick="switchLang('en')">English</button>
+        <button class="lang-btn" onclick="switchLang('pt')">Português</button>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>日系解体工業株式会社</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#home">ホーム</a></li>
+                        <li><a href="#services">サービス</a></li>
+                        <li><a href="#demolition-history">解体実績</a></li>
+                        <li><a href="#company">会社概要</a></li>
+                        <li><a href="#contact">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Japanese Content -->
+    <div id="ja-content" class="language-content active">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>湘南・横浜の戸建解体は日系解体工業株式会社へ</h2>
+                    <p>戸建の解体なら日系解体へ「安全な施工・安心の価格」どんな構造、立地でも、丁寧な工事をお約束します！</p>
+                    <a href="#contact" class="cta-button">お問い合わせ</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2>対応可能な工事</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/images/services/rc-structure.svg" alt="RC造" width="80" height="80">
+                        </div>
+                        <h3>RC造</h3>
+                        <p>鉄筋コンクリート造の建物解体</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/images/services/wood-structure.svg" alt="木造" width="80" height="80">
+                        </div>
+                        <h3>木造</h3>
+                        <p>木造建築物の解体工事</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/images/services/steel-structure.svg" alt="鉄骨造" width="80" height="80">
+                        </div>
+                        <h3>鉄骨造</h3>
+                        <p>鉄骨構造の建物解体</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/images/services/interior.svg" alt="内装解体" width="80" height="80">
+                        </div>
+                        <h3>内装解体</h3>
+                        <p>室内の内装解体工事</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/images/services/tree-cutting.svg" alt="樹木伐採" width="80" height="80">
+                        </div>
+                        <h3>樹木伐採</h3>
+                        <p>樹木の伐採作業</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/images/services/fire-damage.svg" alt="火災家屋" width="80" height="80">
+                        </div>
+                        <h3>火災家屋</h3>
+                        <p>火災被害建物の解体</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company Info -->
+        <section id="company" class="company-section">
+            <div class="container">
+                <h2>会社概要</h2>
+                <div class="company-info">
+                    <p><strong>会社名:</strong> 日系解体工業株式会社</p>
+                    <p><strong>住所:</strong> 神奈川県茅ヶ崎市下寺尾1759</p>
+                    <p><strong>電話:</strong> 0467-38-8842</p>
+                    <p><strong>FAX:</strong> 0467-38-8843</p>
+                    <p><strong>Email:</strong> momose2201@yahoo.co.jp</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- English Content -->
+    <div id="en-content" class="language-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>House Demolition in Shonan/Yokohama - Nikkei Demolition Co., Ltd.</h2>
+                    <p>For house demolition, trust Nikkei Demolition - "Safe construction, reliable prices" We promise careful work for any structure or location!</p>
+                    <a href="#contact" class="cta-button">Contact Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2>Available Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <img src="assets/images/services/rc-structure.svg" alt="RC Structures" width="80" height="80">
+                        </div>
+                        <h3>RC Structures</h3>
+                        <p>Reinforced concrete building demolition</p>

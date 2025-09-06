@@ -403,34 +403,3 @@
             if (window.pageYOffset > 300) {
                 if (!document.querySelector('.scroll-to-top')) {
                     const button = document.createElement('button');
-                    button.innerHTML = '↑';
-                    button.className = 'scroll-to-top';
-                    button.style.cssText = `
-                        position: fixed;
-                        bottom: 20px;
-                        right: 20px;
-                        background: #d32f2f;
-                        color: white;
-                        border: none;
-                        border-radius: 50%;
-                        width: 50px;
-                        height: 50px;
-                        font-size: 20px;
-                        cursor: pointer;
-                        z-index: 1000;
-                    `;
-                    button.addEventListener('click', function() {
-                        window.scrollTo({ top: 0, behavior: 'smooth' });
-                    });
-                    document.body.appendChild(button);
-                }
-            } else {
-                const button = document.querySelector('.scroll-to-top');
-                if (button) {
-                    button.remove();
-                }
-            }
-        });
-    </script>
-</body>
-</html>
