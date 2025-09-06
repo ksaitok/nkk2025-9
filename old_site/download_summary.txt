@@ -1,0 +1,3 @@
+./download_summary.txt
+./nikkei-kaitai.com/index.html
+Total files downloaded: 2
