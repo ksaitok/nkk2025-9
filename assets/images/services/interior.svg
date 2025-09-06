@@ -1,0 +1,7 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="40" width="80" height="20" fill="#DEB887" stroke="#CD853F" stroke-width="2"/>
+  <rect x="20" y="50" width="60" height="30" fill="#F5DEB3" stroke="#DEB887" stroke-width="1"/>
+  <line x1="30" y1="50" x2="30" y2="80" stroke="#CD853F" stroke-width="2"/>
+  <line x1="70" y1="50" x2="70" y2="80" stroke="#CD853F" stroke-width="2"/>
+  <text x="50" y="95" text-anchor="middle" font-size="12" fill="#333">内装</text>
+</svg>
